@@ -76,17 +76,24 @@ input[type=text], select {
 	border: none;
 	height: 50px;
 	border-bottom: 1px solid #304a5f;
-}
+	outline: none;
+}	
 input[type=email], select {
 	-webkit-appearance: none;
 	width: 100%;
 	border: none;
 	height: 50px;
 	border-bottom: 1px solid #304a5f;
+	outline: none;
 }
+
 .social {
 	margin-top: 150px;
 	margin-left: 250px;
+}
+
+label {
+	color: #ee4fa6;
 }
 
 @media only screen and (max-width: 768px) {
@@ -115,7 +122,13 @@ h1 {
 button {
 	margin-left: 50px;
 }
+	
+input[type=text], select {
+	width: 80%;
 }
-label {
-	color: #ee4fa6;
+	
+input[type=email], select {
+	width: 80%;
 }
+}
+
